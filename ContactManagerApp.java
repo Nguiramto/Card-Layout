@@ -12,9 +12,9 @@ public class ContactManagerApp {
     private ArrayList<Contact> contacts;
 
     public ContactManagerApp() {
-        frame = new JFrame("Contact Management System");
+        frame = new JFrame("Card Layout");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(400, 300);
+        frame.setSize(600, 600);
 
         contacts = new ArrayList<>();
         cardLayout = new CardLayout();
